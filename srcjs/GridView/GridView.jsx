@@ -96,7 +96,7 @@ class GridView extends React.Component {
           <div className="card-body">
             <a
               href={item.url}
-              target="_blank"
+              target="_self"
               rel="noreferrer"
             >
               <h2 className="rscgrid-item__title">
