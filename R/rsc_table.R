@@ -45,7 +45,7 @@ rsc_table <- function(content) {
     showPageInfo = FALSE,
     rowStyle = list(cursor = "pointer"),
     onClick = reactable::JS("function(rowInfo, colInfo) {
-      window.open(rowInfo.row.url, '_blank')
+      window.open(rowInfo.row.url, '_self')
     }"),
     columns = list(
       id = reactable::colDef(show = FALSE),
