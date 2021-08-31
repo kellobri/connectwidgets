@@ -45,7 +45,7 @@ function Card({ data }) {
             <a
               className="rsccard__meta-link btn btn-primary btn-sm"
               href={item.url}
-              target="_blank"
+              target="_self"
               rel="noreferrer"
             >Open Content</a>
           </div>
