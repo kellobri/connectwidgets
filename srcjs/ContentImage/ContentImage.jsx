@@ -56,7 +56,7 @@ class ContentImage extends React.Component {
     return (
       <a
         className={this.state.imgClass}
-        target="_blank"
+        target="_self"
         href={this.props.contentUrl}
         rel="noreferrer"
       >
